@@ -26,7 +26,7 @@ class Table:
         self.log = log
         self.rich_table = RichTable()
         self.col_flags = [
-            False,  # Party
+            True,  # Party
             True,  # Agent
             True,  # Name
             bool(config.table.get("skin", True)),  # Skin
