@@ -761,13 +761,13 @@ try:
                     table.set_runtime_col_flag('Pos.', False)
 
                 if game_state == "MENUS":
-                    table.set_runtime_col_flag('Party', False)
+                    # table.set_runtime_col_flag('Party', False)
                     table.set_runtime_col_flag('Agent',False)
                     table.set_runtime_col_flag('Skin',False)
 
                 if game_state == "INGAME":
                     if isRange:
-                        table.set_runtime_col_flag('Party', False)
+                        # table.set_runtime_col_flag('Party', False)
                         table.set_runtime_col_flag('Agent',False)
 
                 # We don't to show the RR column if the "aggregate_rank_rr" feature flag is True.
